@@ -4,7 +4,7 @@ import json
 from datetime import datetime
 
 # Configure Gemini API (Use a valid API Key)
-API_KEY = "AIzaSyDqB--189cWZisGW95qb2sdMzkbTnbq40s"  # Replace with your actual key
+API_KEY = "YOUR_API_KEY"  # Replace with your actual key
 genai.configure(api_key=API_KEY)
 
 def get_travel_options(source, destination, date):
